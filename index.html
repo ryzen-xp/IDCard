@@ -1,0 +1,29 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Contract Interface</title>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+    <h2>ID Card </h2>
+    <nav>
+        <ul>
+            <li><a href="/owner">Owner</a></li>
+            <li><a href="/manager">Manager</a></li>
+            <li><a href="/deactivate">Deactivate Card</a></li>
+            <li><a href="/details">Get Card Details</a></li>
+        </ul>
+        <button class="btr" onclick="connect()">Connect</button>
+    </nav>
+    <p id="account"></p>
+    </div>
+ 
+</body>
+</html>
